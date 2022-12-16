@@ -1,0 +1,101 @@
+[
+    {
+    "id": 1,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Sakin bir yerde gün batımını izle ve hayal kur!",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 2,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Üç defa derin bir nefes al ve kendine güzel bir söz söyle.",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 3,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Uyumadan evvel şükretmek için üç sebep bul!",
+    "level":2,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 4,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Çok sevdiğin veya ihtiyacın olan bir şeyi birisine hediye et.",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 5,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Güzel bir şey gördüğün zaman panik içinde cep telefonunu çıkarıp fotoğraf veya video çekmeye çalışma. Kendin seyret ve keyfini çıkar.",
+    "level":2,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 6,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Hadi durma anneni veya babanı ziyaret et!",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 7,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Ansızın bir arkadaşını ara ve güzel bir vakit geçirin.",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 8,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Hobilerinden birini yap: Örneğin balık tutmak, spor yapmak gibi.",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 9,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Güzel vakit geçirdiğin bir anını düşün.",
+    "level":2,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 10,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Seni çok mutlu eden bir rüyanı hatırlamaya çalış.",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    },
+    {
+    "id": 11,
+    "subTitle":"Kendim İçin Öneri",
+    "title": "Yanında biri varsa, güzel bir söz söyle.",
+    "level":1,
+    "bgHexColor": "#6F9CCE",
+    "bgImage": "",
+    "status": true
+    }
+]

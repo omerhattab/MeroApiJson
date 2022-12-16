@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Umarım güzel bir gün geçiriyorsundur.",
+        "img":"http://www.omersaitoglu.epizy.com/api/file/images/3D/boymeditating.png",
+        "time": [6,7,8,9,10,11],
+        "status":true
+    },
+    {
+        "id":2,
+        "title":"Gün ortası gelmiş bile :)",
+        "img":"http://www.omersaitoglu.epizy.com/api/file/images/3D/womanmeditating.png",
+        "time": [12,13,14,15,16,17],
+        "status":true
+    },
+    {
+        "id":3,
+        "title":"Hava açık ise gün batımı izlemek güzel olabilir veya belkide yağmurları...",
+        "img":"http://www.omersaitoglu.epizy.com/api/file/images/3D/womansmartphone.png",
+        "time": [18,19,20,21],
+        "status":true
+    },
+    {
+        "id":4,
+        "title":"Güzel düşüncelere dalmak için iyi bir gece olabilir.",
+        "img":"http://www.omersaitoglu.epizy.com/api/file/images/3D/boyplaysguitar.png",
+        "time": [22,23,0,1,2,3,4,5],
+        "status":true
+    }
+]

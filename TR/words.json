@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title":"Eğer aşağıya bakarsanız gökkuşağını asla göremezsiniz",
+        "author":"",
+        "level":2,
+        "bgHexColor":"#5F6676",
+        "bgImage":"",
+        "status": true
+    },
+    {
+        "id": 2,
+        "title":"Dahiler, çağlarını aydınlatmak için yanmaya mahkûm göktaşlarıdır.",
+        "author":"",
+        "level":1,
+        "bgHexColor":"#5F6676",
+        "bgImage":"",
+        "status": true
+    },
+    {
+        "id": 3,
+        "title":"Uçmayı çok seviyorsan, bazen düşmesini de bileceksin.",
+        "author":"",
+        "level":1,
+        "bgHexColor":"#5F6676",
+        "bgImage":"",
+        "status": true
+    },
+    {
+        "id": 4,
+        "title":"İnsanlar seninle konuşmayı bıraktığında, arkandan konuşmaya başlarlar...",
+        "author":"",
+        "level":1,
+        "bgHexColor":"#5F6676",
+        "bgImage":"",
+        "status": true
+    },
+    {
+        "id": 5,
+        "title":"Kar tanelerinde muhteşem bir anlam gizlidir, o da birbirine zarar vermeden yol almanın mümkün olmasıdır.",
+        "author":"",
+        "level":2,
+        "bgHexColor":"#5F6676",
+        "bgImage":"",
+        "status": true
+    }
+]
