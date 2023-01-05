@@ -1,5 +1,5 @@
 {
-  "menu": {
+  "menu": [{
       "id": 0,
       "title": "Sözler",
       "bgHexColor": "#FFFFFF",
@@ -124,5 +124,5 @@
       "status": true,
       "type": "suggestions",
       "subMenu": ""
-    }
+    }]
 }
