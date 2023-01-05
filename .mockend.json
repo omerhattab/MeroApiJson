@@ -1,128 +1,58 @@
 {
-  "menu": [{
-      "id": 0,
-      "title": "Sözler",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "home",
-      "subMenu": "words"
-    },
-    {
-      "id": 1,
-      "title": "Hikayeler",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "home",
-      "subMenu": "storys"
-    },
-    {
-      "id": 2,
-      "title": "Öneriler",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "home",
-      "subMenu": "suggestions"
-    },
-    {
-      "id": 3,
-      "title": "Biliyor musunuz?",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "home",
-      "subMenu": "dyKnow"
-    },
-    {
-      "id": 4,
-      "title": "Görseller",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "home",
-      "subMenu": "images"
-    },
-    {
-      "id": 5,
-      "title": "Etkileyici",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "words",
-      "subMenu": ""
-    },
-    {
-      "id": 6,
-      "title": "Anlamlı",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "words",
-      "subMenu": ""
-    },
-    {
-      "id": 7,
-      "title": "Aşk",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "words",
-      "subMenu": ""
-    },
-    {
-      "id": 8,
-      "title": "Nasihat",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "words",
-      "subMenu": ""
-    },
-    {
-      "id": 9,
-      "title": "Başarı",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "storys",
-      "subMenu": ""
-    },
-    {
-      "id": 10,
-      "title": "Başarısız Olma",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "storys",
-      "subMenu": ""
-    },
-    {
-      "id": 11,
-      "title": "Düşündüren-Etkileyici",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "storys",
-      "subMenu": ""
-    },
-    {
-      "id": 12,
-      "title": "Dini",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "storys",
-      "subMenu": ""
-    },
-    {
-      "id": 13,
-      "title": "Kendim İçin Bir Öneri",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "suggestions",
-      "subMenu": ""
-    }]
+"Post": {
+"_": {
+"items": 10
+},
+"cover": {
+"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+},
+"title": {
+"loremWords": {
+"minLength": 5,
+"maxLength": 20
+}
+},
+"body": {
+"loremParagraphs": {
+"minLength": 10,
+"maxLength": 100
+}
+},
+"tag": {
+"string": [
+"one",
+"two",
+"three"
+]
+},
+"isDraft": {
+"boolean": {}
+},
+"createdAt": {
+"dateTime": {
+"min": "2010-01-01T00:00:00Z",
+"max": "2020-12-31T23:59:59Z"
+}
+},
+"comments": {
+"hasMany": "Comment"
+}
+},
+"Comment": {
+"_": {
+"items": 25
+},
+"email": {
+"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+},
+"body": {
+"loremParagraphs": {
+"minLength": 10,
+"maxLength": 100
+}
+},
+"post": {
+"belongsTo": "Post"
+}
+}
 }
