@@ -1,13 +1,7 @@
 {
-  "menu": [
-    {
-      "id": 0,
-      "title": "Sözler",
-      "bgHexColor": "#FFFFFF",
-      "bgImage": "",
-      "status": true,
-      "type": "home",
-      "subMenu": "words"
-    }
-  ]
+  "User": {
+    "name": { "string": {} },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
+  }
 }
